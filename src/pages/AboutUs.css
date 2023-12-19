@@ -1,0 +1,83 @@
+
+  .Paper {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .Paper:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Mission and Values styles */
+  .MissionValues {
+    padding: 20px;
+  }
+  
+  /* Value list styles */
+  .ValueList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ValueList li {
+    margin-bottom: 10px;
+  }
+  
+  /* Animation for the main title */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .FadeInTitle {
+    animation: fadeIn 1s ease-in-out;
+  }
+  /* AboutUs.css */
+
+.Container {
+  padding: 40px 0; /* Add padding to the entire container */
+}
+
+.SectionTitle {
+  color: #333; /* Change the color of the section title */
+}
+
+.FadeInTitle {
+  animation: fadeIn 1s ease-in-out; /* Add a fade-in animation to the title */
+}
+
+.Paper {
+  padding: 20px;
+  text-align: justify; /* Align text to justify inside Paper */
+}
+
+.MissionValues {
+  background-color: #f8f8f8; /* Add a background color to the Mission and Values papers */
+}
+
+.MissionValues h4 {
+  color: #333; /* Change the color of the heading inside MissionValues */
+}
+
+.ValueList {
+  list-style-type: square; /* Change the list style to square for the values */
+  padding-left: 20px; /* Add some left padding to the list */
+}
+
+/* Add more styles for additional sections as needed */
+
+/* Fade-in animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
