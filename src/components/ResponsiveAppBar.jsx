@@ -250,6 +250,9 @@ function ResponsiveAppBar() {
               <MenuItem component={Link} to="/contact us" onClick={handleCloseUserMenu}>
                 <Typography textAlign="center">Contact Us</Typography>
               </MenuItem>
+              <MenuItem component={Link} to="/settings" onClick={handleCloseUserMenu}>
+                <Typography textAlign="center">Settings</Typography>
+              </MenuItem>
               <MenuItem component={Link} to="/logout" onClick={handleCloseUserMenu}>
                 <Typography textAlign="center">Logout</Typography>
               </MenuItem>

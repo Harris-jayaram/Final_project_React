@@ -30,12 +30,8 @@ function SignUp() {
       [name]: value,
     }));
   };
-
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Perform form validation here if needed
-
-    // Assuming validation is successful, show a success message
     toast.success('Signup successful! Welcome aboard!');
     console.log('Form submitted successfully:', formData);
   };

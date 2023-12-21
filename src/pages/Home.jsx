@@ -55,16 +55,10 @@ const GridImage = styled('img')({
 
 class Home extends React.Component {
   state = {
-    welcomeMessage: `
-      Welcome to Our Hospital Management System. 
-      At [Your Hospital Name], we are dedicated to providing unparalleled healthcare services 
-      with a focus on compassion, expertise, and innovation. Our commitment to excellence ensures 
-      that every patient receives the highest quality of care, tailored to meet their unique needs. 
-      As a leading healthcare institution, we leverage cutting-edge technology and a team of 
-      experienced professionals to create a healing environment that promotes well-being and recovery. 
-      Your health and satisfaction are our top priorities, and we are honored to be your trusted 
-      partner on your journey to wellness. Explore the possibilities with [Your Hospital Name], 
-      where your health is our priority.
+    welcomeMessage: ` 
+    At HealthHub, we blend compassion, expertise, and innovation to provide 
+    unparalleled healthcare. Our cutting-edge technology and experienced professionals create a healing environment focused on your well-being. Your health is our priority at HealthHub - where care meets excellence. Explore the possibilities
+     with us, as we strive to make your journey to wellness a seamless and satisfying experience.
     `,
     sliderSettings: {
       dots: true,
@@ -95,7 +89,7 @@ class Home extends React.Component {
           {/* Left Column */}
           <Grid item xs={12} md={6} style={{ marginBottom: '20px' }}>
             <HoverPaper elevation={3}>
-              <Typography variant="h3" gutterBottom style={{ color: '#333' }}>
+              <Typography variant="h3" gutterBottom style={{ color: '#2773ad' }}>
                 Welcome to Our Hospital Management System
               </Typography>
               <Typography variant="body1" paragraph style={{ color: '#666' }}>
@@ -132,14 +126,20 @@ class Home extends React.Component {
         {/* Additional Content Section */}
         <Grid item xs={12}>
           <HoverPaper elevation={3}>
-            <Typography variant="h4" gutterBottom style={{ color: '#333' }}>
+            <Typography variant="h4" gutterBottom style={{ color: '#  2773ad' }}>
               Our Commitment to Quality Care
             </Typography>
             <Typography variant="body1" paragraph style={{ color: '#666' }}>
-              At [Your Hospital Name], we are committed to providing exceptional healthcare services.
-              Our team of dedicated professionals works tirelessly to ensure that each patient receives
-              personalized and high-quality care. We prioritize your well-being and strive to create a
-              healing environment that promotes both physical and emotional recovery.
+              
+At HealthPulse, we are devoted to delivering outstanding healthcare services. 
+Our team of committed professionals tirelessly works to guarantee personalized and high-quality care for every patient. 
+Your well-being is our top priority, and we are dedicated to fostering a healing environment that supports both physical and emotional recovery.
+
+
+
+
+
+
             </Typography>
             <HoverButton
               variant="contained"
@@ -155,7 +155,11 @@ class Home extends React.Component {
         {/* Additional Text Section */}
         <center>
           <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#333', textAlign: 'justify' }}>
-            {/* ... (previous text section) */}
+            <center>
+              <h1>
+            CheckOut Our Famous Doctors
+            </h1>
+            </center>
           </p>
         </center>
 
@@ -163,30 +167,29 @@ class Home extends React.Component {
         <Grid container spacing={4} style={{ marginTop: '40px', justifyContent: 'center' }}>
           <GridItem item xs={6} sm={3}>
             <GridImage src="https://wallpaperaccess.com/full/1189426.jpg" alt="Image 1" />
-            <Typography variant="h6">Grid 1 Title</Typography>
-            <Typography variant="body2">Grid 1 Description</Typography>
+            <Typography variant="h6">Ravi</Typography>
+            <Typography variant="body2">Heart Specialist</Typography>
           </GridItem>
           <GridItem item xs={6} sm={3}>
             <GridImage src="https://wallpaperaccess.com/full/1189426.jpg" alt="Image 2" />
             <Typography variant="h6">Bhagavat</Typography>
-            <Typography variant="body2">one of the best doctor</Typography>
+            <Typography variant="body2">Eye Specialist</Typography>
           </GridItem>
           <GridItem item xs={6} sm={3}>
             <GridImage src="https://wallpaperaccess.com/full/1189426.jpg" alt="Image 3" />
-            <Typography variant="h6">Grid 3 Title</Typography>
-            <Typography variant="body2">Grid 3 Description</Typography>
+            <Typography variant="h6">Nanci</Typography>
+            <Typography variant="body2">Cardiologist</Typography>
           </GridItem>
           <GridItem item xs={6} sm={3}>
             <GridImage src="https://wallpaperaccess.com/full/1189426.jpg" alt="Image 4" />
-            <Typography variant="h6">Grid 4 Title</Typography>
-            <Typography variant="body2">Grid 4 Description</Typography>
+            <Typography variant="h6">Venkat</Typography>
+            <Typography variant="body2">Dentist</Typography>
           </GridItem>
         </Grid>
 
         {/* Blog Card Section */}
         <Grid container spacing={4} style={{ marginTop: '40px', justifyContent: 'center' }}>
           <Grid item xs={12} md={6} style={{ marginBottom: '20px', display: 'flex', justifyContent: 'center' }}>
-            {/* Add your Blog component or content here */}
           </Grid>
         </Grid>
 

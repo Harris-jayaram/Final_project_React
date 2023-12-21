@@ -13,7 +13,7 @@ import HealthTips from './components/HealthTips';
 import Dashboard from './components/Dashboard';
 import ContactUs from './components/ContactUs';
 import Logout from './components/Logout';
-import BackgroundVideo from './pages/BackgroundVideo';
+import Settings from './components/Settings';
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
           <Route path="/healthtips" element={<HealthTips />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/contact us" element={<ContactUs />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="/logout" element={<Logout />} />
 
           {/* Other routes go here */}

@@ -27,16 +27,16 @@ const Profile = () => {
           style={{ width: '100%', maxWidth: '500px', borderRadius : '25px',margin: '0 auto' }}
         />
         <Typography variant="h5" style={{ marginTop: '10px', fontWeight: 'bold', color: '#333' }}>
-          John Doe
+          Harris Jayaram
         </Typography>
         <Typography variant="body2" style={{ marginTop: '10px', color: '#666' }}>
-          UI/UX Designer
+          Frontened Developer
         </Typography>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '15px' }}>
           <div style={{ marginRight: '20px' }}>
             <PersonIcon style={{ color: '#3498db', fontSize: '28px' }} />
             <Typography variant="body2" style={{ color: '#666', marginTop: '5px' }}>
-              25 years old
+              18 years old
             </Typography>
           </div>
           <div style={{ marginRight: '20px' }}>
@@ -48,7 +48,7 @@ const Profile = () => {
           <div>
             <EmailIcon style={{ color: '#27ae60', fontSize: '28px' }} />
             <Typography variant="body2" style={{ color: '#666', marginTop: '5px' }}>
-              john.doe@example.com
+              harrisjayaram@gmail.com
             </Typography>
           </div>
         </div>

@@ -106,31 +106,28 @@ const BlogList = () => {
   return (
     <div style={containerStyle}>
       <BlogCard
-        image="https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg"
+        image="https://repository-images.githubusercontent.com/501410194/3efc7aaa-3b9f-4be0-b138-0689a5ccfde8"
         author="John Doe"
         date="Aug. 24, 2015"
         tags={['Learn', 'Code', 'HTML', 'CSS']}
-        title="Learning to Code"
-        subtitle="Opening a door to the future"
-        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+        title="HOSPITAL MANAGEMENT SYSTEM"
+        content="The hospital management system organizes the stable functioning of daily tasks and interactions. This is a special tool to support the smooth operating of the software components that are vital for the clinic administration. The hospital records management software keeps a track of all the operations, stores the users’ data, performs its analysis and generates the reports. The medical institution is given the opportunity to collect its information in one place. It includes the patient and doctors’ records as well as the data concerning financial affairs, supply management, etc. Furthermore, it is only processed, classified and accessible for authorized users. The hospital database management system provides users with data security due to all regulations. Implementation of different functions empowers smooth and clear functionality."
       />
       <BlogCard
-        image="https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg"
+        image="https://repository-images.githubusercontent.com/501410194/3efc7aaa-3b9f-4be0-b138-0689a5ccfde8"
         author="Jane Doe"
         date="July. 15, 2015"
         tags={['Learn', 'Code', 'JavaScript']}
-        title="Mastering the Language"
-        subtitle="Java is not the same as JavaScript"
-        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+        title="HOSPITAL MANAGEMENT SYSTEM"
+        content="The hospital management system organizes the stable functioning of daily tasks and interactions. This is a special tool to support the smooth operating of the software components that are vital for the clinic administration. The hospital records management software keeps a track of all the operations, stores the users’ data, performs its analysis and generates the reports. The medical institution is given the opportunity to collect its information in one place. It includes the patient and doctors’ records as well as the data concerning financial affairs, supply management, etc. Furthermore, it is only processed, classified and accessible for authorized users. The hospital database management system provides users with data security due to all regulations. Implementation of different functions empowers smooth and clear functionality."
       />
       <BlogCard
-        image="https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg"
+        image="https://repository-images.githubusercontent.com/501410194/3efc7aaa-3b9f-4be0-b138-0689a5ccfde8"
         author="Alice Wonderland"
         date="Sept. 10, 2015"
         tags={['Explore', 'Adventure', 'Travel']}
-        title="Journey into the Unknown"
-        subtitle="Discovering hidden treasures"
-        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+        title="HOSPITAL MANAGEMENT SYSTEM"
+        content="The hospital management system organizes the stable functioning of daily tasks and interactions. This is a special tool to support the smooth operating of the software components that are vital for the clinic administration. The hospital records management software keeps a track of all the operations, stores the users’ data, performs its analysis and generates the reports. The medical institution is given the opportunity to collect its information in one place. It includes the patient and doctors’ records as well as the data concerning financial affairs, supply management, etc. Furthermore, it is only processed, classified and accessible for authorized users. The hospital database management system provides users with data security due to all regulations. Implementation of different functions empowers smooth and clear functionality."
       />
     </div>
   );

@@ -40,7 +40,9 @@ const Input = styled.input`
   margin-top: 8px;
   font-size: 16px;
   transition: border-color 0.3s ease;
-  &:hover {
+  
+  &:hover,
+  &:focus {
     border-color: #3498db;
   }
 `;
@@ -53,7 +55,9 @@ const Select = styled.select`
   margin-top: 8px;
   font-size: 16px;
   transition: border-color 0.3s ease;
-  &:hover {
+  
+  &:hover,
+  &:focus {
     border-color: #3498db;
   }
 `;
@@ -66,7 +70,9 @@ const TextArea = styled.textarea`
   margin-top: 8px;
   font-size: 16px;
   transition: border-color 0.3s ease;
-  &:hover {
+  
+  &:hover,
+  &:focus {
     border-color: #3498db;
   }
 `;
@@ -80,6 +86,7 @@ const SubmitButton = styled.button`
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  
   &:hover {
     background-color: #2980b9;
     transform: scale(1.05);
@@ -89,6 +96,7 @@ const SubmitButton = styled.button`
 const ErrorMessages = styled.div`
   color: red;
 `;
+
 const ConfirmationModal = styled.div`
   position: fixed;
   top: 0;
@@ -119,21 +127,9 @@ const CloseButton = styled.span`
   cursor: pointer;
 `;
 
-export {
-  FormContainer,
-  Heading,
-  FormGroup,
-  Label,
-  Input,
-  Select,
-  TextArea,
-  SubmitButton,
-  ErrorMessages,
-  ConfirmationModal,
-  CloseButton,
-  ModalContent,
-};
-
+const Icon = styled(FontAwesomeIcon)`
+  margin-right: 5px;
+`;
 
 const Appointment = () => {
   const [formData, setFormData] = useState({
@@ -151,7 +147,7 @@ const Appointment = () => {
       state: '',
     },
     email: '',
-    previouslyAttended: false,
+    previouslyAttended: 'No',
     previousCondition: '',
     appointmentTypes: {
       cervixCheckup: false,
@@ -228,7 +224,7 @@ const Appointment = () => {
 
         <FormGroup>
           <Label>
-            <FontAwesomeIcon icon={faUser} style={{ marginRight: '5px' }} />
+            <Icon icon={faUser} />
             Name*:
           </Label>
           <div style={{ display: 'flex', gap: '5px' }}>
@@ -442,9 +438,8 @@ const Appointment = () => {
           Hearing checkup
         </label>
         <br />
-
         <SubmitButton type="submit">
-          <FontAwesomeIcon icon={faCheckCircle} style={{ marginRight: '5px' }} /> Send
+          <Icon icon={faCheckCircle} /> Send
         </SubmitButton>
 
         {/* Form validation errors */}
@@ -463,7 +458,6 @@ const Appointment = () => {
               <li>Name: {formData.firstName} {formData.lastName}</li>
               <li>Email: {formData.email}</li>
               <li>Phone: {formData.phone}</li>
-              {/* Add more details as needed */}
             </ul>
             <p>Your appointment details will be provided upon confirmation.</p>
           </ModalContent>
