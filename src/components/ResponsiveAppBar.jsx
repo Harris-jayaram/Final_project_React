@@ -73,7 +73,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" color="primary">
+    <AppBar position="static" color="primary" style={{background:'rgb(8, 8, 55)'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton

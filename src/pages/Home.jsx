@@ -201,13 +201,13 @@ Your well-being is our top priority, and we are dedicated to fostering a healing
                 Connect with Us
               </Typography>
               {/* Add your social media icons and links here */}
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/its_me_stylish_hj_?igshid=MTNiYzNiMzkwZA==" target="_blank" rel="noopener noreferrer">
                 <InstagramIcon fontSize="large" style={{ color: '#E4405F', margin: '0 10px' }} />
               </a>
               <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                 <FacebookIcon fontSize="large" style={{ color: '#1877F2', margin: '0 10px' }} />
               </a>
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Harris-jayaram" target="_blank" rel="noopener noreferrer">
                 <GitHubIcon fontSize="large" style={{ color: '#333', margin: '0 10px' }} />
               </a>
             </div>
