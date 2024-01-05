@@ -19,7 +19,9 @@ function App() {
   return (
     <Router>
       <div>
+       
         <ResponsiveAppBar />
+     
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
